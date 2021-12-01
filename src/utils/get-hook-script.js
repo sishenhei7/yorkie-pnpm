@@ -50,7 +50,7 @@ module.exports = function getHookScript(hookName, relativePath, runnerPath) {
     stripIndent(
       `
       #!/bin/sh
-      #yorkie ${pkg.version}
+      #yorkie-pnpm ${pkg.version}
 
       command_exists () {
         command -v "$1" >/dev/null 2>&1

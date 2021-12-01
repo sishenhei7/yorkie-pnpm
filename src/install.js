@@ -76,7 +76,7 @@ function installFrom(depDir) {
 
     const projectDir = findParent(depDir, 'package.json')
     const hooksDir = findHooksDir(projectDir)
-    const runnerPath = './node_modules/yorkie/src/runner.js'
+    const runnerPath = './node_modules/yorkie-pnpm/src/runner.js'
 
     if (hooksDir) {
       hooks
