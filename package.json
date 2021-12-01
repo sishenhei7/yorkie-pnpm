@@ -1,6 +1,6 @@
 {
   "name": "yorkie-pnpm",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "githooks management forked from yorkie",
   "engines": {
     "node": ">=4"
